@@ -17,7 +17,7 @@ let response = fetch(`https://cbu.uz/uz/arkhiv-kursov-valyut/json/`)
     rubQiymat.innerHTML = qiymat[2].Rate;
 
     console.log(data);
-    
+
     uzsInput.addEventListener("input", (e) => {
       setTimeout(() => {
         const uzs = e.target.value;
